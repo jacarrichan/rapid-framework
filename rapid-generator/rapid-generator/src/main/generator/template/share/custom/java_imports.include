@@ -1,0 +1,27 @@
+import java.io.*;
+import java.net.*;
+import java.util.*;
+
+import java.math.BigDecimal;
+import java.math.BigInteger;
+
+import com.xs.calltaxi.common.base.*;
+
+import static com.xs.calltaxi.common.util.DateFormats.*;
+import static com.xs.calltaxi.common.util.GlobalMessages.*;
+import static com.xs.calltaxi.common.util.SpringMVCUtils.toModelMap;
+import static com.xs.calltaxi.common.util.MybatisPageQueryUtils.pageQuery;
+
+import static cn.org.rapid_framework.util.ValidationErrorsUtils.convert;
+import static cn.org.rapid_framework.beanutils.BeanUtils.copyProperties;
+import static cn.org.rapid_framework.util.holder.BeanValidatorHolder.validateWithException;
+import cn.org.rapid_framework.util.DateConvertUtils;
+
+import cn.org.rapid_framework.page.PageRequest;
+import cn.org.rapid_framework.page.Page;
+
+import ${basepackage}.model.*;
+import ${basepackage}.dao.*;
+import ${basepackage}.service.*;
+import ${basepackage}.query.*;
+
