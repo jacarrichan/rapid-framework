@@ -22,7 +22,7 @@ public class PageRequestTest extends TestCase {
 		} catch (IllegalArgumentException e) {
 		}
 		
-		assertEquals(new PageRequest().getPageSize(),10);
-		assertEquals(new PageRequest("").getPageSize(),10);
+		assertEquals(new PageRequest().getPageSize(),50);
+		assertEquals(new PageRequest("").getPageSize(),50);
 	}
 }
