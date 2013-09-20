@@ -19,9 +19,9 @@
 		<module>rapid-springmvc-mybatis</module>
 	</modules>
 	<scm>
-		<connection>scm:svn:http://rapid-framework.googlecode.com/svn/trunk/rapid-mvn</connection>
-		<developerConnection>scm:svn:https://rapid-framework.googlecode.com/svn/trunk/rapid-mvn</developerConnection>
-		<url>http://rapid-framework.googlecode.com/svn/trunk/rapid-mvn</url>
+		<connection>scm:svn:http://rapid-framework-jacarri.googlecode.com/svn/trunk/rapid-framework</connection>
+		<developerConnection>scm:svn:https://rapid-framework-jacarri.googlecode.com/svn/trunk/rapid-framework</developerConnection>
+		<url>http://rapid-framework-jacarri.googlecode.com/svn/trunk/rapid-framework</url>
 	</scm>
 	<developers>
 		<developer>

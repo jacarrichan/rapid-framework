@@ -11,9 +11,9 @@
 	<packaging>war</packaging>
 	<version>1.0</version>
 	<scm>
-		<connection>scm:svn:http://rapid-framework.googlecode.com/svn/trunk/rapid-mvn</connection>
-		<developerConnection>scm:svn:https://rapid-framework.googlecode.com/svn/trunk/rapid-mvn</developerConnection>
-		<url>http://rapid-framework.googlecode.com/svn/trunk/rapid-mvn</url>
+		<connection>scm:svn:http://rapid-framework-jacarri.googlecode.com/svn/trunk/rapid-framework</connection>
+		<developerConnection>scm:svn:https://rapid-framework-jacarri.googlecode.com/svn/trunk/rapid-framework</developerConnection>
+		<url>http://rapid-framework-jacarri.googlecode.com/svn/trunk/rapid-framework</url>
 	</scm>
 	<developers>
 		<developer>
@@ -497,7 +497,7 @@
 				</repository>
 				<repository>
 					<id>rapid</id>
-					<url>http://rapid-framework.googlecode.com/svn/trunk/repository</url>
+					<url>http://rapid-framework-jacarri.googlecode.com/svn/trunk/repository</url>
 				</repository>
 			</repositories>
 		</profile>

@@ -9,10 +9,10 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:context="http://www.springframework.org/schema/context"
-	xmlns:method-cache="http://rapid-framework.googlecode.com/svn/trunk/schema/method-cache"
+	xmlns:method-cache="http://rapid-framework-jacarri.googlecode.com/svn/trunk/schema/method-cache"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
-    http://rapid-framework.googlecode.com/svn/trunk/schema/method-cache http://rapid-framework.googlecode.com/svn/trunk/schema/method-cache.xsd
+    http://rapid-framework-jacarri.googlecode.com/svn/trunk/schema/method-cache http://rapid-framework-jacarri.googlecode.com/svn/trunk/schema/method-cache.xsd
     "
     default-autowire="byName" default-lazy-init="false">
 

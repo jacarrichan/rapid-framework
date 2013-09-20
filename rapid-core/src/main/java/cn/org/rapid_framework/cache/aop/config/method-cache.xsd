@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<xsd:schema xmlns="http://rapid-framework.googlecode.com/svn/trunk/schema/method-cache"
+<xsd:schema xmlns="http://rapid-framework-jacarri.googlecode.com/svn/trunk/schema/method-cache"
 		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 		xmlns:beans="http://www.springframework.org/schema/beans"
 		xmlns:tool="http://www.springframework.org/schema/tool"
-		targetNamespace="http://rapid-framework.googlecode.com/svn/trunk/schema/method-cache"
+		targetNamespace="http://rapid-framework-jacarri.googlecode.com/svn/trunk/schema/method-cache"
 		elementFormDefault="qualified"
 		attributeFormDefault="unqualified">
 

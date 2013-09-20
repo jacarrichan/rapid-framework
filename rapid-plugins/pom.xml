@@ -15,11 +15,11 @@
 	<description>rapid-plugins mojos</description>
 	<url>http://maven.apache.org</url>
 	<scm>
-		<connection>scm:svn:http://rapid-framework.googlecode.com/svn/tags/4.0.5/rapid-mvn
+		<connection>scm:svn:http://rapid-framework-jacarri.googlecode.com/svn/trunk/rapid-framework
 		</connection>
-		<developerConnection>scm:svn:https://rapid-framework.googlecode.com/svn/tags/4.0.5/rapid-mvn
+		<developerConnection>scm:svn:https://rapid-framework-jacarri.googlecode.com/svn/trunk/rapid-framework
 		</developerConnection>
-		<url>http://rapid-framework.googlecode.com/svn/tags/4.0.5/rapid-mvn</url>
+		<url>http://rapid-framework-jacarri.googlecode.com/svn/trunk/rapid-framework</url>
 	</scm>
 	<developers>
 		<developer>
