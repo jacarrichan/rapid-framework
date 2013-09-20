@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <java fork="true" spawn="true" classname="org.h2.tools.Console" classpathref="maven.plugin.classpath"></java>
+</target>
+</project>
