@@ -395,7 +395,7 @@ public class GeneratorFacade {
 			GLogger.println("\n----All TableNames BEGIN----");
 			for (int i = 0; i < tables.size(); i++) {
 				String sqlName = ((Table) tables.get(i)).getSqlName();
-				GLogger.println("g.generateTable(\"" + sqlName + "\");");
+//				GLogger.println("g.generateTable(\"" + sqlName + "\");");
 				GLogger.println("for maven.please use [mvn rapid:gen -Dtable="
 						+ sqlName + "]");
 			}

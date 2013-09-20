@@ -135,7 +135,7 @@ public class GLogger {
 		String comment = " " + className + "-" + methodName + "(" + lineNumber
 				+ "): ";
 		if (logLevel <= INFO) {
-			out.println(comment+s);
+			out.println(s);
 		}
 	}
 
