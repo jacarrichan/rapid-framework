@@ -22,7 +22,8 @@ public class PrintMojo extends BaseMojo {
 
 		try {
 			currentThread.setContextClassLoader(getClassLoader());
-			System.out.println("current project to build: " + getProject().getName() + "\n"
+			System.out.println("current project to build: "
+					+ getProject().getName() + "\n"
 					+ getProject().getFile().getParent());
 			g = new GeneratorFacade();
 			g.getGenerator().setTemplateRootDirs("classpath:template");

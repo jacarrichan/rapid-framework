@@ -109,7 +109,8 @@ public class SqlQueryFactoryTest extends GeneratorTestCase  {
 		g.generateBy(gm.templateModel, gm.filePathModel);
 		fail("数据类型应该匹配不正确");
 	    }catch(Exception e) {
-	        e.printStackTrace();
+//	        e.printStackTrace();
+	        assertTrue(true);
 	    }
 	}
 
@@ -130,7 +131,7 @@ public class SqlQueryFactoryTest extends GeneratorTestCase  {
 	public void test_sql_error() throws Exception {
 		try {
 			Sql selectSql  = new SqlFactory().parseSql("update user_info1 set username = :username where password = :password and age=:age and sex=:sex");
-			fail();
+			fail("");
 		}catch(Exception e){
 			assertTrue(true);
 		}

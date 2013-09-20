@@ -66,6 +66,7 @@ public class GenMojo extends BaseMojo {
 	public void genByTable(String... table) {
 		try {
 			g.generateByTable(table);
+			//打开输入目录
 			Runtime.getRuntime().exec("cmd.exe /c start " + GeneratorProperties.getRequiredProperty("outRoot"));
 		} catch (Exception e) {
 			e.printStackTrace();
