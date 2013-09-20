@@ -4,6 +4,9 @@
 *.jar
 *.war
 *.ear
+*.db
+*.log
+rapid-core/velocity.log
 target/*
 .svn/*
 rapid-plugins/target/*
