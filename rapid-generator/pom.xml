@@ -36,6 +36,7 @@
 	</developers>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<slf4j.version>1.6.0</slf4j.version>
 	</properties>
 	<modules>
 		<module>rapid-generator</module>
@@ -88,6 +89,17 @@
 			</dependency> <dependency> <groupId>com.googlecode.rapid-framework</groupId> 
 			<artifactId>rapid-generator-cmd-line</artifactId> <version>4.0</version> 
 			</dependency> -->
+						<!-- logging BEGIN -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>${slf4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-log4j12</artifactId>
+				<version>${slf4j.version}</version>
+			</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -104,11 +116,13 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<version>1.2.135</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.13</version>
+			<scope>test</scope>
 		</dependency>
 		<!-- <dependency> <groupId>com.oracle</groupId> <artifactId>ojdbc14</artifactId> 
 			<scope>test</scope> </dependency> -->
