@@ -17,8 +17,8 @@
 	<!-- 需要移除的表名前缀,使用逗号进行分隔多个前缀,示例值: t_,v_ -->
 	<entry key="tableRemovePrefixes"></entry>
 	
-	<entry key="jdbc_username">sa</entry>
-	<entry key="jdbc_password">sa</entry>
+	<entry key="jdbc_username">root</entry>
+	<entry key="jdbc_password">123456</entry>
 		
 	<!-- oracle需要指定jdbc_schema,并且可能要大写，其它数据库忽略此项配置  -->
 	<entry key="jdbc_schema"></entry>
@@ -34,14 +34,15 @@
 	<entry key="java_typemapping.java.sql.Clob">java.lang.String</entry>
 	
 	
-	<!-- H2默认以服务形式开启 -->		
-		<entry key="jdbc_url">jdbc:h2:tcp://localhost/test</entry>
+	<!-- H2默认以服务形式开启
+		<entry key="jdbc_url">jdbc:h2:tcp://localhost/~/RAPID</entry>
 		<entry key="jdbc_driver">org.h2.Driver</entry>
+	 -->		
 
 	<!-- Mysql 
+	-->
 		<entry key="jdbc_url">jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=UTF-8</entry>
 		<entry key="jdbc_driver">com.mysql.jdbc.Driver</entry>
-	-->
 	
 	<!-- Oracle		jdbc:oracle:oci:@tnsname_devdb
 		<entry key="jdbc_url">jdbc:oracle:thin:@192.168.0.177:1521:[sid]</entry>

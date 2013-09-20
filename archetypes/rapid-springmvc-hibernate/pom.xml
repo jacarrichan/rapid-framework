@@ -48,6 +48,20 @@
 			<artifactId>rapid-core</artifactId>
 			<version>${rapid.version}</version>
 		</dependency>
+		<!-- 代码生成器核心引擎 -->
+		<dependency>
+			<groupId>com.googlecode.rapid-framework</groupId>
+			<artifactId>rapid-generator</artifactId>
+			<version>${rapid.version}</version>
+		</dependency>
+		<!-- 代码生成器模板,模板根目录通过 classpath:generator/template/rapid 可以引用 -->
+		<dependency>
+			<groupId>com.googlecode.rapid-framework</groupId>
+			<artifactId>rapid-generator-template</artifactId>
+			<version>${rapid.version}</version>
+		</dependency>
+		<!-- rapid end -->
+
 		<!-- jdbc drivers -->
 		<dependency>
 			<groupId>com.h2database</groupId>
@@ -335,6 +349,11 @@
 			<groupId>taglibs</groupId>
 			<artifactId>standard</artifactId>
 			<version>1.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-lgpl</artifactId>
+			<version>1.7.4</version>
 		</dependency>
 	</dependencies>
 	<!-- maven插件配置 -->
