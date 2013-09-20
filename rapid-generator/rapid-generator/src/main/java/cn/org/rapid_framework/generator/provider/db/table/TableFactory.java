@@ -152,8 +152,9 @@ public class TableFactory {
 	         throw new IllegalArgumentException("tableName must be not empty");
 	    catalog = StringHelper.defaultIfEmpty(catalog, null);
 	    schema = StringHelper.defaultIfEmpty(schema, null);
-	    
+	    GLogger.trace("正在连接数据库..");
 		Connection conn = DataSourceProvider.getConnection();
+		GLogger.trace("正在获取元数据..");
 		DatabaseMetaData dbMetaData = conn.getMetaData();
 		ResultSet rs = dbMetaData.getTables(catalog, schema, tableName, null);
 		try {
