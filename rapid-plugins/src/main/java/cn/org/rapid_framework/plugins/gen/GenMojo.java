@@ -47,7 +47,8 @@ public class GenMojo extends BaseMojo {
 
 		try {
 			currentThread.setContextClassLoader(getClassLoader());
-			System.out.println("current project to build: " + getProject().getName() + "\n"
+			System.out.println("current project to build: "
+					+ getProject().getName() + "\n"
 					+ getProject().getFile().getParent());
 			g = new GeneratorFacade();
 			g.getGenerator().setTemplateRootDirs("classpath:template");
@@ -66,11 +67,16 @@ public class GenMojo extends BaseMojo {
 	public void genByTable(String... table) {
 		try {
 			g.generateByTable(table);
-			//打开输入目录
-			Runtime.getRuntime().exec("cmd.exe /c start " + GeneratorProperties.getRequiredProperty("outRoot"));
+			// 打开输入目录
+			String folder = GeneratorProperties.getRequiredProperty("outRoot");
+			File f = new File(folder);
+			if (f.exists()) {
+				Runtime.getRuntime().exec("cmd.exe /c start " + folder);
+			} else {
+				System.out.println(folder + "不存在");
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
-
 }
