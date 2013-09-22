@@ -33,6 +33,10 @@ public class GLogger {
 			out.println("[Generator TRACE] " + comment + s);
 	}
 
+	public static boolean isDebug() {
+		return logLevel == DEBUG;
+	}
+
 	public static void debug(String s) {
 		StackTraceElement stack[] = (new Throwable()).getStackTrace();
 		StackTraceElement ste = stack[1];
