@@ -33,6 +33,8 @@ public class PrintMojo extends BaseMojo {
 				e.printStackTrace();
 			}
 			printAllTableNames();
+			System.out
+					.println("如果想看可以在模板中可以输出哪些内容,请在log4j.properties中间中加入如下：\r\ncn.org.rapid_framework.generator.util.GLogger=debug");
 		} finally {
 			currentThread.setContextClassLoader(oldClassLoader);
 		}
