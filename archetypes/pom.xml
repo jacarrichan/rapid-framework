@@ -10,6 +10,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.googlecode.rapid-framework</groupId>
 	<artifactId>rapid-archetypes</artifactId>
+	<!-- <version>${parent.version}</version> -->
 	<version>1.0</version>
 	<packaging>pom</packaging>
 	<modules>
